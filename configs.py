@@ -13,7 +13,7 @@ class Config(object):
     BOT_USERNAME = os.environ.get("BOT_USERNAME")
     BOT_OWNER = int(os.environ.get("BOT_OWNER"))
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
-    ABOUT_BOT_TEXT = """<b>This is Mdisk Search Bot.
+    ABOUT_BOT_TEXT = """<b>This is Bst Market Bot.
 
 🤖 My Name: <a href='https://t.me/cyniteofficial'>Bst Market Bot</a>
 
