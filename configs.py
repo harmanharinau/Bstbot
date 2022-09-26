@@ -15,7 +15,7 @@ class Config(object):
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
     ABOUT_BOT_TEXT = """<b>This is Mdisk Search Bot.
 
-🤖 My Name: <a href='https://t.me/cyniteofficial'>Mdisk Search Robot</a>
+🤖 My Name: <a href='https://t.me/cyniteofficial'>Bst Market Bot</a>
 
 📝 Language : <a href='https://www.python.org'> Python V3</a>
 
@@ -23,33 +23,33 @@ class Config(object):
 
 📡 Server: <a href='https://heroku.com'>Heroku</a>
 
-👨‍💻 Created By: <a href='https://t.me/cyniteofficial'>Cynite</a></b>
+👨‍💻 Created By: <a href='https://t.me/clashuser'>Cynite</a></b>
 """
 
-    ABOUT_HELP_TEXT = """<b>👨‍💻 Developer : <a href='https://t.me/cyniteofficial'>Click Me</a>
+    ABOUT_HELP_TEXT = """<b>👨‍💻 Developer : <a href='https://t.me/clashuser'>Click Me</a>
 
-If You Want Your Own Bot Like This Then You Can Contact Our Developer.</b>
+If You Want Access To This Bot And Want To Add Your Own Clans/Accounts On Sell Free Then Contact The Developer.</b>
 """
 
     HOME_TEXT = """
 <b>Hey! {}😅,
 
-I'm Mdisk Search Robot.🤖</a>
+I'm Bst Market Robot.🤖</a>
 
-I Can Search 🔍 What You Want❗
+I Can Search 🔍 Clan/Accounts For You❗
 
-<a>Made With ❤ By @Cyniteofficial</a></b>
+<a>Made With ❤ By @Clashuser</a></b>
 """
 
 
     START_MSG = """
 <b>Hey! {}😅,
 
-I'm Mdisk Search Robot.🤖</a>
+I'm Bst Market Robot.🤖</a>
 
-I Can Search 🔍 What You Want❗
+I Can Search 🔍 Clan/Accounts For You❗
 
-<a>Made With ❤ By @Cyniteofficial</a></b>
+<a>Made With ❤ By @Clashuser</a></b>
 """
 
 
