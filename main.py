@@ -28,7 +28,7 @@ async def start_handler(_, event: Message):
 	await event.reply_photo("https://telegra.ph/file/165941ae764a56d6d9c89.jpg",
                                 caption=Config.START_MSG.format(event.from_user.mention),
                                 reply_markup=InlineKeyboardMarkup([
-                                    [InlineKeyboardButton("Contact", url="https://t.me/cyniteofficial"),
+                                    [
                                      InlineKeyboardButton("Creator", url="https://t.me/clashuser")],
                                     [InlineKeyboardButton("Help", callback_data="Help_msg"),
                                      InlineKeyboardButton("About", callback_data="About_msg")]]))
