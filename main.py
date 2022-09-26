@@ -51,7 +51,7 @@ async def inline_handlers(_, event: Message):
     answers = f'**📂 Results For ➠ {event.text} \n\n▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n\n**'
     async for message in User.search_messages(chat_id=Config.CHANNEL_ID, limit=50, query=event.text):
         if message.text:
-            thumb = https://telegra.ph/file/c9b51440351ec5718017d.jpg
+            thumb = None
             f_text = message.text
             msg_text = message.text.html
             if "|||" in message.text:
