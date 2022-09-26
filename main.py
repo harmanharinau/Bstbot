@@ -39,7 +39,7 @@ async def help_handler(_, event: Message):
     await event.reply_text(Config.ABOUT_HELP_TEXT.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton("Our Contact", url="https://t.me/clashuser"),
-             InlineKeyboardButton("Home", callback_data="gohome), 
+             InlineKeyboardButton("Home", callback_data="gohome"), 
              InlineKeyboardButton("About", callback_data="About_msg")]
         ])
     )
@@ -77,7 +77,7 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("Help", url="https://t.me/cyniteMovies"),
+						InlineKeyboardButton("Help", callback_data="Help_msg"),
 						InlineKeyboardButton("Join", url="https://t.me/Technicalcynite")
 					],
 					[
