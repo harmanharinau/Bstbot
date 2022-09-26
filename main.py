@@ -77,8 +77,7 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("Help", callback_data="Help_msg"),
-						InlineKeyboardButton("Join", url="https://t.me/Technicalcynite")
+						InlineKeyboardButton("Help", callback_data="Help_msg")
 					],
 					[
 						InlineKeyboardButton("Creator", url="https://t.me/clashuser"),
@@ -95,8 +94,7 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("About", callback_data="About_msg"),
-						InlineKeyboardButton("Our Channel", url="https://t.me/Technicalcynite")
+						InlineKeyboardButton("About", callback_data="About_msg")
 					], 
                                         [
 						InlineKeyboardButton("Owner", url="https://t.me/clashuser"),
@@ -117,8 +115,7 @@ async def button(bot, cmd: CallbackQuery):
 						InlineKeyboardButton("About", callback_data="About_msg")
 					],
 					[
-						InlineKeyboardButton("Support", url="https://t.me/clashuser"),
-						InlineKeyboardButton("Channel", url="https://t.me/TechnicalCynite")
+						InlineKeyboardButton("Support", url="https://t.me/clashuser")
 					]
 				]
 			),
